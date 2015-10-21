@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="distanceEntries">
+        <item>miles</item>
+        <item>km</item>
+    </string-array>
+
+    <string-array name="distanceValues">
+        <item>miles</item>
+        <item>km</item>
+    </string-array>
+    <string-array name="searchEntries">
+        <item>Search nearby</item>
+        <item>Free search</item>
+    </string-array>
+
+    <string-array name="searchValues">
+        <item>Search nearby</item>
+        <item>Free search</item>
+    </string-array>
+</resources>

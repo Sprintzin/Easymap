@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <ListPreference
+        android:dialogTitle="Select a distance system"
+        android:entries="@array/distanceEntries"
+        android:entryValues="@array/distanceValues"
+        android:key="distance"
+        android:title="Distance" />
+    <ListPreference
+        android:dialogTitle="Select your search preference"
+        android:entries="@array/searchEntries"
+        android:entryValues="@array/searchValues"
+        android:key="search"
+        android:title="Search preferences"
+
+
+        />
+
+    <Preference
+
+        android:key="deleteAll"
+        android:title="Delete all favorites" />
+</PreferenceScreen>
+
+

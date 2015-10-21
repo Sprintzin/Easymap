@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="search_top_margin">25dp</dimen>
+    <dimen name="search_text_size">20sp</dimen>
+    <dimen name="buttons_margin">2dp</dimen>
+    <dimen name="name_size">30sp</dimen>
+    <dimen name="margin">5dp</dimen>
+    <dimen name="addres_distance_size">15sp</dimen>
+    <dimen name="text_size">15sp</dimen>
+    <dimen name="style_margin">10dp</dimen>
+    <dimen name="imageview_size">40dp</dimen>
+    <dimen name="my_favs">50dp</dimen>
+    <dimen name="divider_hight_fav">10dp</dimen>
+    <dimen name="search_hight">50dp</dimen>
+    <dimen name="tablet_divider_width">2dp</dimen>
+    <dimen name="stroke_width_button">3dp</dimen>
+    <dimen name="button_width">270dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="sb__bg_corner_radius">0dp</dimen>
+    <dimen name="sb__offset">0dp</dimen>
+    <dimen name="sb__text_padding_bottom">14dp</dimen>
+    <dimen name="sb__text_padding_left">24dp</dimen>
+    <dimen name="sb__text_padding_top">14dp</dimen>
+    <dimen name="sb__text_padding_right">24dp</dimen>
+    <dimen name="sb__text_size">14sp</dimen>
+    <dimen name="sb__min_width">288dp</dimen>
+    <dimen name="sb__max_width">568dp</dimen>
+
+
+</resources>

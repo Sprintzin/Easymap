@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/context_save"
+        android:title="@string/context_save" />
+    <item
+        android:id="@+id/context_share"
+        android:title="@string/context_share" />
+    <item
+        android:id="@+id/waze"
+        android:title="@string/waze_search" />
+
+</menu>

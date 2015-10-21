@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gidi.easymap.view.FavFragment">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/favorites"
+        android:background="@color/google_blue"
+        android:textColor="@color/white"
+        android:textSize="@dimen/search_text_size" />
+
+    <ListView
+        android:id="@+id/listView_fav"
+        android:drawSelectorOnTop="true"
+        android:listSelector="@drawable/ripple"
+        android:background="@color/google_light_blue"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:divider="@null"
+        android:dividerHeight="2dp" />
+</LinearLayout>

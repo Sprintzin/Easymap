@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tablet"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:id="@+id/cont_search"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <View
+        android:layout_width="@dimen/tablet_divider_width"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_black_percent_35" />
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:id="@+id/cont_map"
+        android:layout_height="match_parent"/>
+    <View
+        android:layout_width="@dimen/tablet_divider_width"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_black_percent_35" />
+    <FrameLayout
+        android:layout_width="0dp"
+        android:id="@+id/cont_favs"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+</LinearLayout>
